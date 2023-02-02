@@ -34,4 +34,5 @@ def get_counter_origin(address: str = '0xBbA4C8eB57DF16c4CfAbe4e9A3Ab697A3e0C65D
 if __name__ == "__main__":
 
     result = get_counter_origin()
-    print(result)
+    print('Number of "WalletConnect transactions" = {0}'.format(result))
+
